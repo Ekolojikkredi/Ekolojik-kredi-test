@@ -1,0 +1,91 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f4f8;
+}
+
+.container {
+  display: flex;
+  width: 80%;
+  max-width: 900px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.left-panel {
+  flex: 1;
+  background-color: #1e81b0;
+  color: white;
+  padding: 20px;
+  border-radius: 10px 0 0 10px;
+}
+
+.left-panel h1 {
+  color: #ffffff;
+}
+
+.left-panel button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #16628a;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.left-panel button:hover {
+  background-color: #0e4a64;
+}
+
+.right-panel {
+  flex: 2;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 0 10px 10px 0;
+}
+
+.section {
+  display: none;
+}
+
+.section.active {
+  display: block;
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+form input, form select, form button {
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form button {
+  background-color: #1e81b0;
+  color: white;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #16628a;
+}
+
+#krediBilgileri {
+  background-color: #f0f4f8;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
